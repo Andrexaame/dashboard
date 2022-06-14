@@ -9787,9 +9787,9 @@ input[type="button"].btn-block {
   color: #ffffff;
   text-align: left;
   list-style: none;
-  background-color: #191c24;
+  background-color: #91b9d7;
   background-clip: padding-box;
-  border: 1px solid #2c2e33;
+  border: 1px solid #fff;
   border-radius: 0.25rem; }
 
 .dropdown-menu-left {
@@ -9909,11 +9909,16 @@ input[type="button"].btn-block {
   right: auto;
   bottom: auto; }
 
+  .boton{
+    background-color: #6395BB;
+    color: white;
+}
+
 .dropdown-divider {
   height: 0;
   margin: 0.5rem 0;
   overflow: hidden;
-  border-top: 1px solid #2c2e33; }
+  border-top: 1px solid #ffffff; }
 
 .dropdown-item {
   display: block;
@@ -9921,15 +9926,15 @@ input[type="button"].btn-block {
   padding: 0.25rem 1.5rem;
   clear: both;
   font-weight: 400;
-  color: #ffffff;
+  color: #6c7293;
   text-align: inherit;
   white-space: nowrap;
   background-color: transparent;
   border: 0; }
   .dropdown-item:hover, .dropdown-item:focus {
-    color: #16181b;
+    color: #ffffff;
     text-decoration: none;
-    background-color: #13151b; }
+    background-color: #5e8da9; }
   .dropdown-item.active, .dropdown-item:active {
     color: #fff;
     text-decoration: none;
@@ -12867,12 +12872,12 @@ button.bg-light:focus {
   background-color: #e6e6e6 !important; }
 
 .bg-dark {
-  background-color: #0d0d0d !important; }
+  background-color: #ffffff !important; }
 
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
 button.bg-dark:focus {
-  background-color: black !important; }
+  background-color: #006d2f !important; }
 
 .bg-white {
   background-color: #ffffff !important; }
@@ -20732,7 +20737,7 @@ div.tagsinput {
         .sidebar .nav .nav-item .nav-link .menu-title {
           color: inherit;
           display: inline-block;
-          font-size: 0.9375rem;
+          font-size: 0.8rem;
           line-height: 1;
           vertical-align: middle; }
         .sidebar .nav .nav-item .nav-link .badge {
@@ -20915,7 +20920,7 @@ div.tagsinput {
           background: transparent; }
     .sidebar .nav:not(.sub-menu) > .nav-item:hover:not(.nav-category):not(.account-dropdown) > .nav-link {
       background: #5e8da9;
-      color: #000; }
+      color: #ffffff; }
     .sidebar .nav .menu-items:nth-child(5n+1) .nav-link .menu-icon i {
       color: #0090e7; }
     .sidebar .nav .menu-items:nth-child(5n+2) .nav-link .menu-icon i {
@@ -21138,5 +21143,13 @@ div.tagsinput {
   width: 100%;
   -webkit-flex-grow: 1;
   flex-grow: 1; }
+  
+  .table-dark:hover{
+    background: #ffffff;
+  }
+  .boton{
+    background-color: #6395BB;
+    color: white;
+}
 
 /*# sourceMappingURL=maps/style.css.map */

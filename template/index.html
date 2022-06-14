@@ -39,30 +39,6 @@
                   <span>Almacenista</span>
                 </div>
               </div>
-              <a href="#" id="profile-dropdown" data-toggle="dropdown"><i class="mdi mdi-dots-vertical"></i></a>
-              <div class="dropdown-menu dropdown-menu-right sidebar-dropdown preview-list" aria-labelledby="profile-dropdown">
-                <a href="#" class="dropdown-item preview-item">
-                  <div class="preview-thumbnail">
-                    <div class="preview-icon bg-dark rounded-circle">
-                      <i class="mdi mdi-settings text-primary"></i>
-                    </div>
-                  </div>
-                  <div class="preview-item-content">
-                    <p class="preview-subject ellipsis mb-1 text-small">Configuracion de perfil</p>
-                  </div>
-                </a>
-                <div class="dropdown-divider"></div>
-                <a href="#" class="dropdown-item preview-item">
-                  <div class="preview-thumbnail">
-                    <div class="preview-icon bg-dark rounded-circle">
-                      <i class="mdi mdi-onepassword  text-info"></i>
-                    </div>
-                  </div>
-                  <div class="preview-item-content">
-                    <p class="preview-subject ellipsis mb-1 text-small">Cambiar Contraseña</p>
-                  </div>
-                </a>
-            </div>
           </li>
           
           <li class="nav-item menu-items">
@@ -111,7 +87,7 @@
             
             <ul class="navbar-nav navbar-nav-right">
               <li class="nav-item dropdown d-none d-lg-block">
-                <a class="nav-link btn btn-success create-new-button" id="createbuttonDropdown" data-toggle="dropdown" aria-expanded="false" href="#">+ Create New Project</a>
+               
                 <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="createbuttonDropdown">
                   <h6 class="p-3 mb-0">Projects</h6>
                   <div class="dropdown-divider"></div>
@@ -151,11 +127,6 @@
                   <p class="p-3 mb-0 text-center">See all projects</p>
                 </div>
               </li>
-              <li class="nav-item nav-settings d-none d-lg-block">
-                <a class="nav-link" href="#">
-                  <i class="mdi mdi-view-grid"></i>
-                </a>
-              </li>
               <li class="nav-item dropdown">
                 <a class="nav-link" id="profileDropdown" href="#" data-toggle="dropdown">
                   <div class="navbar-profile">
@@ -166,6 +137,17 @@
                 <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="profileDropdown">
                   <h6 class="p-3 mb-0">Almacenista</h6>
                   <div class="dropdown-divider"></div>
+                  <a href="#" class="dropdown-item preview-item">
+                    <div class="preview-thumbnail">
+                      <div class="preview-icon bg-dark rounded-circle">
+                        <i class="mdi mdi-onepassword text-info"></i>
+                      </div>
+                    </div>
+                    <div class="preview-item-content">
+                      <p class="preview-subject ellipsis mb-1 text-small">Cambiar contraseña</p>
+                    </div>
+                  </a>
+                  
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item preview-item">
                     <div class="preview-thumbnail">
@@ -177,9 +159,7 @@
                       <p class="preview-subject mb-1">Salir</p>
                     </div>
                   </a>
-                  <div class="dropdown-divider"></div>
-                  <p class="p-3 mb-0 text-center">Advanced settings</p>
-                </div>
+                  
               </li>
             </ul>
             <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
@@ -189,7 +169,59 @@
         </nav>
         <!-- partial -->
         <div class="main-panel">
-          <div class="content-wrapper">
+          <div class="table text-center table-bordered">
+           
+            <table class="">
+
+              <tr>
+            
+                <th scope="row">Día</th>
+            
+                <th>Hoy</th>
+            
+                <th>Mañana</th>
+            
+                <th>Viernes</th>
+            
+              </tr>
+            
+              <tr>
+            
+                <th>Condición</th>
+            
+                <td>Soleado</td>
+            
+                <td>Mayormente soleado</td>
+            
+                <td>Parcialmente nublado</td>
+            
+              </tr>
+            
+              <tr>
+            
+                <th>Temperatura</th>
+            
+                <td>19°C</td>
+            
+                <td>17°C</td>
+            
+                <td>12°C</td>
+            
+              </tr>
+            
+              <tr>
+            
+                <th>Vientos</th>
+            
+                <td>E 13 km/h</td>
+            
+                <td>E 11 km/h</td>
+            
+                <td>S 16 km/h</td>
+            
+              </tr>
+            
+            </table>
            
             
           </div>
